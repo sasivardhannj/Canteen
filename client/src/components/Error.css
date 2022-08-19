@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap');
+
+.popup{
+    height: 15h;
+    width:25vw;
+    min-width:300px;
+    min-height:75px;
+    position: relative;
+}
+.text{
+    position: absolute;
+    left : 50%;
+    top : 50%;
+    transform : translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.success{
+    background-color: green;
+}
+.failure{
+    background-color: red;
+}

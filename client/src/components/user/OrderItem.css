@@ -1,0 +1,79 @@
+.my_orders_h1{
+    /* margin: auto; */
+    text-align: center;
+    font-family: cursive;
+}
+
+.order_history{
+    background-color: rgb(203, 218, 95);
+    margin: 30px auto;
+    width: 40%;
+    top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 90px;
+    /* scroll-margin: 1px; */
+}
+
+.order_history h1{
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0;
+    /* width: 50%; */
+}
+
+.order_history_comp{
+    /* width: 50%; */
+    padding: 0 2%;
+}
+
+.order_history_comp h2{
+    font-size: 20px;
+    font-weight: 900;
+    font-family:monospace ;
+    color: blueviolet;
+}
+
+.order_item_heading{
+    display: flex;
+    /* width: fit-content; */
+    margin-left: 10%;
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* font-fam */
+}
+
+.order_item_heading h5{
+    text-align: center;
+    margin: 0 20px;
+    min-width: 70px;
+    max-width: 100px;
+}
+
+.order_item{
+    color: rgb(224, 71, 29);
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+
+.order_item h5{
+    text-align: center;
+    margin: 0 20px;
+    min-width: 70px;
+    max-width: 100px;
+
+}
+
+.orderhistory-totalcost{
+    text-align: center;
+    padding-top: 25px;
+}

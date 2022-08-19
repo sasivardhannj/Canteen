@@ -1,0 +1,12 @@
+.n-a{
+    background-color: rgb(248, 70, 70);
+}
+.a{
+    background-color: rgb(124, 231, 124);
+}
+.n-a:hover{
+    background-color:rgb(209, 35, 35); 
+}
+.a:hover{
+    background-color: rgb(61, 202, 61);
+}

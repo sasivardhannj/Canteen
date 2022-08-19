@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aliceblue; */
+}
+
+.card-shanu{
+    background-color: rgb(139, 240, 136);
+    border-radius: 10px;
+    /* padding: 1px 0; */
+}
+
+
+.shanu{
+    background-color:rgb(232, 156, 156);
+    border-radius: 100%;
+    width: 25px;
+    font-size: larger;
+}
+
+.card-data{
+    text-align: center;
+    display: flex;
+    border: solid 2px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    max-width: 270px;
+    
+    /* padding: 1px; */
+}
+.card-sameline{
+    color: rgb(106, 6, 255);
+    font-weight: 900;
+    margin-left: 30px;
+    width: 250px;
+    height: fit-content;
+    
+    /* overflow: hidden; */
+
+}
+
+.card-sameline *{
+    /* display: flex; */
+    margin-right: 10px; 
+}
+
+h3{
+    width: 100px;
+    overflow: hidden;
+    color: blueviolet;
+}
+
+/* button{
+    width: 20px;
+} */
+
+.shanu:hover{
+    cursor : pointer;   
+    background-color: antiquewhite;
+}
+
+.nonveg{
+    background-color: #f5e6da;
+}
